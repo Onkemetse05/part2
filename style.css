@@ -1,0 +1,38 @@
+body{
+    background-color:#1d002ce5; 
+    font-family: serif;  
+}
+header{
+    color:#D6B9FC;
+    font-weight: bold;
+    border-style:solid;
+    border-width:2px;
+}
+h2{
+    color:#D6B9FC;
+    font-weight: bold;
+    border-style:solid;
+    border-width:2px;
+}
+h3{
+    color:#D6B9FC;
+    font-weight: bold;
+    
+}
+h4{
+    color:#D6B9FC;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+p{
+    color:bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label{
+    color:#cb88e0;
+}
+li{
+    color:bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
