@@ -16,23 +16,27 @@ h2{
 }
 h3{
     color:#D6B9FC;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 h4{
     color:#D6B9FC;
     font-weight: bold;
-    font-style: italic;
-    
 }
 p{
     color:bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-label{
-    color:#cb88e0;
-}
+
 li{
     color:bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    color:bisque;
+}
+form{
+    color:bisque;
+}
+nav{
+   color:bisque; 
 }
