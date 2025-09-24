@@ -1,42 +1,41 @@
+/*this is the general styling for the website*/
 body{
-    background-color:#1d002ce5; 
-    font-family: serif;  
+    font-family:sans-serif;
+    background-color:burlywood;
+    color:brown;
 }
-header{
-    color:#D6B9FC;
-    font-weight: bold;
-    border-style:solid;
-    border-width:2px;
+h2, h3, h4{
+    color:darkred;
 }
-h2{
-    color:#D6B9FC;
-    font-weight: bold;
-    border-style:solid;
-    border-width:2px;
+ul{
+  list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow:hidden;  
 }
-h3{
-    color:#D6B9FC;
-    font-weight: bold; 
-}
-h4{
-    color:#D6B9FC;
-    font-weight: bold;
-}
-p{
-    color:bisque;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-li{
-    color:bisque;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-table{
-    color:bisque;
-}
-form{
-    color:bisque;
-}
+/*this is the nav bar*/
 nav{
-   color:bisque; 
+    margin:0;
+}
+nav ul{
+    background-color: black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+nav li{
+    float: left;
+}
+/*div for brand logos*/
+.brands{
+ text-align: center;
+}
+/*this is for contact us*/
+.info ul li{
+    list-style-type:none;
+    text-decoration:none;
 }
