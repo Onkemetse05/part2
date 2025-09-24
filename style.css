@@ -1,11 +1,11 @@
 /*this is the general styling for the website*/
 body{
     font-family:sans-serif;
-    background-color:burlywood;
-    color:brown;
+    background-color:#edba5c;
+    color:#873619;
 }
 h2, h3, h4{
-    color:darkred;
+    color: #3f1609;
 }
 ul{
   list-style-type: none;
@@ -18,10 +18,10 @@ nav{
     margin:0;
 }
 nav ul{
-    background-color: black;
+    background-color:#d97d1d;
 }
 nav a{
-    color: white;
+    color: #3f1609;
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -39,3 +39,51 @@ nav li{
     list-style-type:none;
     text-decoration:none;
 }
+/*This is for the car pages*/
+.confirm {
+      background-color: #3f1609;
+      color: #d97d1d;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 20px 0;
+      cursor: pointer;
+      border-radius: 5px;
+}
+.model {
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ffaa00;
+}
+
+.parts {
+      margin: 15px 0;
+      display: flex;
+      flex-direction: column;
+}
+label {
+      margin-bottom: 5px;
+      font-weight: bold;
+}
+
+select {
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+      background: #e5b12a;
+      color: #3c1d0c;
+      font-size: 14px; 
+}
+
+select:focus {
+      outline: 2px solid #3c1d0c ;
+}
+
+    /* Grid for body kits */
+.body{
+      display: grid;
+      margin-top: 10px;
+      gap:10px
+}
+
