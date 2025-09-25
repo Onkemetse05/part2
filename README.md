@@ -43,6 +43,7 @@ Changelog:
 22/08 - added the end page.
 23/08 - fixed all typos on all the pages.
 24/09 - added style.css and added colors to basics
+25/09 - finished the color scheme of the website
 
 References:
 Mercedes logo - https://logos-world.net/mercedes-benz-logo/
