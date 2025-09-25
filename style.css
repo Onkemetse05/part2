@@ -70,6 +70,10 @@ nav li{
     cursor: pointer;
     border-radius: 5px;
 }
+.button:hover{
+    background-color: #d97d1d;
+    color:#fff
+}
 .model{
     border-bottom: #3c1d0c 3px solid;
 }
@@ -92,9 +96,13 @@ select{
     color: #3c1d0c;
     font-size: 14px; 
 }
+select:hover{
+    background-color: #f2c75c;
+}
 
 select:focus{
     outline: 2px solid #3c1d0c ;
+    background-color: #e8b92f;
 }
 
 .body{
@@ -113,6 +121,10 @@ select:focus{
     color: #3c1d0c;
     font-size: 14px; 
     display:block;
+}
+.box:focus{
+    outline: 2px solid #3c1d0c ;
+    background-color: #f2c75c;
 }
 
 /*this is for the form*/
