@@ -2,7 +2,7 @@
 body{
     font-family:sans-serif;
     background-color:#edba5c;
-    color:#873619;
+    color: #7b3001;
 }
 h2, h3, h4{
     color: #3f1609;
@@ -40,7 +40,7 @@ nav li{
     text-decoration:none;
 }
 /*This is for the car pages*/
-.confirm {
+.button {
       background-color: #3f1609;
       color: #d97d1d;
       text-align: center;
