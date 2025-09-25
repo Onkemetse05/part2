@@ -8,7 +8,7 @@ h2, h3, h4{
     color: #3f1609;
 }
 ul{
-  list-style-type: none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
     overflow:hidden;  
@@ -32,7 +32,7 @@ nav li{
 }
 /*div for brand logos*/
 .brands{
- text-align: center;
+    text-align: center;
 }
 /*this is for contact us*/
 .info ul li{
@@ -40,50 +40,75 @@ nav li{
     text-decoration:none;
 }
 /*This is for the car pages*/
-.button {
-      background-color: #3f1609;
-      color: #d97d1d;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 20px 0;
-      cursor: pointer;
-      border-radius: 5px;
+.button{
+    background-color: #3f1609;
+    color: #d97d1d;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
 }
-.model {
-      margin-bottom: 40px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid #ffaa00;
-}
-
-.parts {
-      margin: 15px 0;
-      display: flex;
-      flex-direction: column;
-}
-label {
-      margin-bottom: 5px;
-      font-weight: bold;
+.model{
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffaa00;
 }
 
-select {
-      padding: 8px;
-      border-radius: 5px;
-      border: none;
-      background: #e5b12a;
-      color: #3c1d0c;
-      font-size: 14px; 
+.parts{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
-select:focus {
-      outline: 2px solid #3c1d0c ;
+select{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background: #e5b12a;
+    color: #3c1d0c;
+    font-size: 14px; 
 }
 
-    /* Grid for body kits */
+select:focus{
+    outline: 2px solid #3c1d0c ;
+}
+
+/* Grid for body kits */
 .body{
-      display: grid;
-      margin-top: 10px;
-      gap:10px
+    display: grid;
+    margin-top: 10px;
+    gap:10px
 }
+/*input box in delivery*/
+.box{
+    flex:1;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background: #e5b12a;
+    color: #3c1d0c;
+    font-size: 14px; 
+    display:block;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.form label{
+    width: 140px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+
 
