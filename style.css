@@ -4,18 +4,20 @@ body{
     background-color:#edba5c;
     color: #692800;
 }
+
 h2, h3, h4{
     color: #3f1609;
 }
+
 ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
     overflow:hidden;  
 }
+
 footer{
     text-align: center;
-
     padding: 10px;
     font-weight: bold;
     border-top: #3c1d0c 3px solid;
@@ -24,13 +26,16 @@ footer{
 .border{
     border-bottom: #3c1d0c 3px solid;
 }
+
 /*this is the nav bar*/
 nav{
     margin-bottom: 20px;
 }
+
 nav ul{
     background-color:#d97d1d;
 }
+
 nav a{
     color: #3f1609;
     text-decoration: none;
@@ -38,18 +43,28 @@ nav a{
     display: block;
     text-align: center;
 }
+
 nav li{
     float: left;
 }
+
 /*this is for brand logos*/
 .brands{
     text-align: center;
     border-bottom: #3c1d0c 3px solid;
+    padding:10px;
 }
+
 .head{
     text-align: center;
     margin-bottom: 20px;
     border: #3c1d0c 3px solid;
+    padding: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 /*this is for contact us*/
@@ -69,6 +84,7 @@ nav li{
     margin: 20px 0;
     cursor: pointer;
     border-radius: 5px;
+    width: auto;
 }
 .button:hover{
     background-color: #d97d1d;
@@ -82,6 +98,7 @@ nav li{
     margin: 15px 0;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 label{
     margin-bottom: 5px;
@@ -95,6 +112,8 @@ select{
     background: #e5b12a;
     color: #3c1d0c;
     font-size: 14px; 
+    box-sizing: border-box;
+    width:100%;
 }
 select:hover{
     background-color: #f2c75c;
@@ -108,7 +127,8 @@ select:focus{
 .body{
     display: grid;
     margin-top: 10px;
-    gap:10px
+    gap:10px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 /*input box in delivery*/
 .box{
@@ -121,6 +141,8 @@ select:focus{
     color: #3c1d0c;
     font-size: 14px; 
     display:block;
+    box-sizing: border-box;
+    width: 100%;
 }
 .box:focus{
     outline: 2px solid #3c1d0c ;
@@ -132,12 +154,50 @@ select:focus{
     display: flex;
     align-items: center;
     margin-bottom: 12px;
+    flex-wrap:wrap;
+    gap:10px;
 }
 .form label{
     width: 140px;
     margin-bottom: 0;
     font-weight: bold;
+    flex-shrink:0;
 }
+.form select{
+    padding: 8px;
+    border-radius:5px ;
+    border:none;
+    background:#e5b12a;
+    color:#3c1d0c;
+    font-size: 14px;
+    box-sizing: border-box;
+    width:100%;
+}
+.form select:hover{
+    background-color: #f2c75c;
+}
+.form select:focus{
+    outline: 2px solid #3c1d0c ;
+    background-color: #e8b92f;
+}
+.form input{
+    padding: 8px;
+    border-radius:5px ;
+    border:none;
+    background:#e5b12a;
+    color:#3c1d0c;
+    font-size: 14px;
+    box-sizing: border-box;
+    width:100%;
+}
+.form input:hover{
+    background-color: #f2c75c;
+}
+.form input:focus{
+    outline: 2px solid #3c1d0c ;
+    background-color: #e8b92f;
+}
+
 fieldset{
     border: #3c1d0c 3px solid;
     border-radius: 5px;
@@ -150,4 +210,59 @@ legend{
 }
 
 
+/* mobile screen*/
+@media only screen and (max-width:600px){
+    .form{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form label{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+/*tablet screen*/
+@media only screen and (min-width:601px) and (max-width:900px){
+
+    .form{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form label{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    nav li{
+        float: none;
+        width: 100%;
+    }
+    .parts{
+        flex-direction: column;
+        gap:10px;
+    }
+    .body{
+        grid-template-columns: 1fr 1fr;
+    }
+    .box{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    footer{
+        font-size: 14px;
+        padding: 8px;
+    }
+    .head{
+        padding:10px;
+    }
+    .brands{
+        padding:10px;
+    }
+    .button{
+        width:100%;
+    }
+}
 
