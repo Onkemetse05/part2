@@ -44,10 +44,42 @@ Changelog:
 23/08 - fixed all typos on all the pages.
 24/09 - added style.css and added colors to basics
 25/09 - finished the color scheme of the website
+26/09 - made the website adjust to all screen sizes and added screenshots
+
+
+screenshots:
+desktop view:
+![Delivery page](image-17.png)
+![End page](image-18.png)
+![Home page](image-19.png)
+![About us page](image-20.png)
+![Contact us page](image-21.png)
+![Services page](image-22.png)
+![Products example - audi page](image-23.png)
+![Products page](image-24.png)
+
+mobile view:
+![End page](image-8.png)
+![Home page](image-9.png)
+![About us page](image-10.png)
+![Contact us page](image-11.png)
+![Services page](image-12.png)
+![Products page](image-14.png)
+![Product example - bmw page](image-15.png)
+![Delivery page](image-16.png)
+
+tablet view:
+![Home page](image.png)
+![About us page](image-1.png)
+![Contact us page](image-2.png)
+![Services page](image-3.png)
+![Products page](image-4.png)
+![Product example- mercedes page](image-5.png)
+![Delivery page](image-6.png)
+![End page](image-7.png)
 
 References:
 Mercedes logo - https://logos-world.net/mercedes-benz-logo/
 BMW logo - https://logos-world.net/bmw-logo/
 Audi logo - https://logos-world.net/audi-logo/
-
 
